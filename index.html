@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comic Demo</title>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Navigation bar -->
+	<div id="nav">
+		<!-- scrollTo animation applyed with JavaScript -->
+		<div class="nav-btn" id="first-page"><h1>intro</h1></div><br />
+		<div class="nav-btn" id="second-page"><h3>fixing <br />coco</h3></div><br />
+		<div class="nav-btn" id="third-page"><h3>angry <br />coco</h3></div><br />
+		<div class="nav-btn" id="fourth-page"><h3>coco lesson</h3></div><br />
+	</div>
+	<!-- 
+	Four full browser size sections:
+	1. Mountain
+	2. Text section
+	3. Ocean
+	4. Text section
+	 -->
+	<div id="mountain">
+		<!-- Content to display inside the mountain div -->
+		<div id="flower-div" data-aos="fade-up" duration="2000">
+			<div id="flower-text">Welcome to our abode!! We are the COCONUT BROS hehe </div>
+			<img id="flower" src="img/funnycoconut.png">
+		</div>
+	</div>
+	<div id="first-text" class="text-section">
+		
+		<span data-aos="fade-right"><img id="glue" src="img/buffcoco.png"</span>
+		<!--<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra adipiscing at in tellus integer feugiat scelerisque. Amet justo donec enim diam vulputate ut. Elit eget gravida cum sociis natoque penatibus et magnis dis. Porttitor massa id neque aliquam.</p>-->
+	</div>
+	<div id="ocean">
+		<!-- Content to display inside the ocean div -->
+		<div id="fish-div"  data-aos="fade-left" data-aos-duration="2000">
+			<img id="fish" src="img/angrycoco.png">
+			<div id="fish-text">WHY DID YOU FIX ME?!!! <br />A GLUED COCONUT IS A DISHONOURABLE COCO!!</div>
+
+		</div>
+	</div>
+	<div id="second-text"   class="text-section">
+		<span><img id="knife" src="img/knife.png"</span>
+		
+
+		<!--<p class="text">
+			Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Ut diam quam nulla porttitor massa id. Libero enim sed faucibus turpis in eu mi bibendum neque. Sed risus pretium quam vulputate dignissim suspendisse. Amet tellus cras adipiscing enim. Mollis aliquam ut porttitor leo a diam.
+		</p>-->
+	</div>
+	<!-- Cat div position is fixed on the bottom left corner of the web page -->
+	<div id="cat-div">
+		<div id="cat-text">
+			Hello! I'm The Coco-Man, your storyteller!
+		</div>
+		<img id="cat" src="img/cocoman.gif">
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
